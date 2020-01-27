@@ -1,8 +1,7 @@
 var today = moment().format("dddd, MMMM Do");
 $("#currentDay").text(today);
-// var currentTime = (moment().format("LT"));
-var now = moment();
-now = now.toString();
+
+var now = (moment()).toString();
 var today9Am = (moment('09:00', 'HH:mm')).toString();
 var today10Am = (moment('10:00', 'HH:mm')).toString();
 var today11Am = (moment('11:00', 'HH:mm')).toString();
@@ -115,5 +114,5 @@ else if (now >= today6Pm) {
 
 
 
-
-console.log(moment().format("LT"));
+console.log(moment());
+// console.log(moment().format("LT"));
